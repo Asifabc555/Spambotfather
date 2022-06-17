@@ -15,11 +15,11 @@ from datetime import datetime
 RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/558fac9d590fa4cdd7a52.jpg"
   
 
-rizoel = "✯ᴍᴜᴋᴇsʜxsᴘᴀᴍ ʜᴇʀᴇ✯\n\n"
+rizoel = "✯ᴅᴇᴠxsᴘᴀᴍ ʜᴇʀᴇ✯\n\n"
 rizoel += f"═══════════════════\n"
 rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"• **ᴍᴜᴋᴇsʜxsᴘᴀᴍ  ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f"• **ᴅᴇᴠxsᴘᴀᴍ  ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
@@ -40,11 +40,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukhushi_official"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/worldwide_friend_zone")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/stars_rising"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/we_rfriends")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Itz-mst-boy/Spambotfather")
+        Button.url("• ʀᴇᴘᴏ •", "https://telegra.ph/file/9b0455dae14d5639f936d.mp4")
         ]
         ]
         )
@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ᴅᴇᴠ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
         
         
 
@@ -181,8 +181,8 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**ᴀᴅᴅᴇᴅ  `{target}` ** ᴀs ᴀ  sᴜᴅᴏ ᴜsᴇʀ 😌👀 ʀᴇsᴛᴀʀᴛɪɴɢ.. ᴘʟᴇᴀsᴇ  ᴡᴀɪᴛ  ᴀ  ᴍɪɴᴜᴛᴇ ʙʙ..")
-        heroku_var[rizoel] = newsudo   
+        await ok.edit(f"**ᴀᴅᴅᴇᴅ  `{target}` ** ᴀs ᴀ  sᴜᴅᴏ ᴜsᴇʀ 😌👀 ʀᴇsᴛᴀʀᴛɪɴɢ.. ᴘʟᴇᴀsᴇ  ᴡᴀɪᴛ  ᴀ  ᴍɪɴᴜᴛᴇ..")
+        heroku_var[rizoel] = newsudo 
    
      
 async def get_user(event):
