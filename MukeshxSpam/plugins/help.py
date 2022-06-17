@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukhushi_official")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/stars_rising")
            ],
            ],
            )              
@@ -122,7 +122,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @itz_mst_boy**
+** © @Devarora0981**
 """                     
            
            
@@ -149,13 +149,13 @@ async def helpback(event):
             Button.inline("Extra cmds", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukhushi_official")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/stars_rising")
            ],
            ],
         )           
    else:
         Alert = (
-                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ  ʏᴏᴜʀ   ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ  ʙᴏᴛs  ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʀᴇᴘᴏ @itz_mst_boy !!"
+                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ  ʏᴏᴜʀ   ᴏᴡɴ ᴅᴇᴠ X sᴘᴀᴍ  ʙᴏᴛs  ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʀᴇᴘᴏ @Devarora0981 !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -183,7 +183,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ ʏᴏᴜʀ  ᴏᴡɴ  ᴍᴜᴋᴇsʜ X sᴘᴀᴍ  ʙᴏᴛs  !!"
+                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ ʏᴏᴜʀ  ᴏᴡɴ  ᴅᴇᴠ X sᴘᴀᴍ  ʙᴏᴛs  !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -210,7 +210,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
+                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇᴠ X sᴘᴀᴍ ʙᴏᴛs !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -238,7 +238,7 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
+                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇᴠ X sᴘᴀᴍ ʙᴏᴛs !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
 
