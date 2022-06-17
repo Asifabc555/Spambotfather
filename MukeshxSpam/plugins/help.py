@@ -64,7 +64,7 @@ ii) {hl}leave : ᴛʏᴘᴇ ɪɴ ᴛʜᴇ  ɢʀᴏᴜᴘ ʙᴏᴛ ᴡɪʟʟ  ᴀ
 **Packspam**: sᴛɪᴄᴋᴇʀ ᴘᴀᴄᴋ  sᴘᴀᴍ
 i) {hl}packspam (replying to any sticker)
 
-**© @itz_mst_boy**
+**© @Devarora0981**
 """
 
                  
@@ -93,7 +93,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @itz_mst_boy**
+**© @Devarora0981**
 """
 
 spam_msg = f"""
