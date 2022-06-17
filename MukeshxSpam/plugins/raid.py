@@ -233,7 +233,7 @@ async def _(event):
              a = await event.client.get_entity(user)
              e = a.id
              if int(e) in RiZoeLX:
-                    text = f"I can't raid on @itz_mst_boy Spam Bot Owner"
+                    text = f"I can't raid on @devarora0981 Spam Bot Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -257,10 +257,10 @@ async def _(event):
                b = await event.client.get_entity(a.sender_id)
                e = b.id
                if int(e) in RiZoeLX:
-                       text = f"I can't raid on @itz_mst_boy Spam Bot Owner"
+                       text = f"I can't raid on @Devarora0981 Spam Bot Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) == OWNER_ID:
-                       text = f"This guy is a owner Of this Bots."
+                       text = f"This guy is a owner Of this Bot."
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) in SUDO_USERS:
                        text = f"This guy is a sudo user."
