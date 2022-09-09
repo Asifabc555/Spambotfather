@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ᴅᴇᴠ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n[ϟ ᴅᴇᴠ X sᴘᴀᴍ ϟ︎](t.me/Devbotz) `{ms}` ᴍs")
         
         
 
@@ -109,7 +109,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**ʀᴇsᴛᴀʀᴛɪɴɢ  ʏᴏᴜʀ ᴅᴇᴠ x  sᴘᴀᴍ**.. ᴘʟᴇᴀsᴇ  ᴡᴀɪᴛ  ᴜɴᴛɪʟ  ɪᴛ  sᴛᴀʀᴛs ᴀɢᴀɪɴ"
+        text = "**ʀᴇsᴛᴀʀᴛɪɴɢ  ʏᴏᴜʀ [ᴅᴇᴠ x  sᴘᴀᴍ](Devbotz.t.me)**.. ᴘʟᴇᴀsᴇ  ᴡᴀɪᴛ  ᴜɴᴛɪʟ  ɪᴛ  sᴛᴀʀᴛs ᴀɢᴀɪɴ"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
